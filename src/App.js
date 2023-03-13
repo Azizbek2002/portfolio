@@ -1,10 +1,16 @@
 import './App.css';
+import Home from './Home';
+import Services from './Services';
+import Projects from './Projects';
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>My Portfolio</h1>
-    </div>
+    <>
+    <Home/>
+    <Services/>
+    <Projects/>
+    </>
   );
 }
 
